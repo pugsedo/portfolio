@@ -1,10 +1,14 @@
 import NavBar from "./components/navbar";
 
+import './css/resume.scss';
+
 function Resume() {
   return (
     <div className="resume">
       <NavBar/>
-      <p>Resume Here...</p>
+      <section className="resumeContent">
+        <p>Resume Content Here...</p>
+      </section>
     </div>
   );
 }
