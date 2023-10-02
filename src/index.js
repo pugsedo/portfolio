@@ -7,6 +7,7 @@ import './pages/css/index.scss';
 
 import Home from './pages/home';
 import Resume from './pages/resume';
+import Projects from './pages/projects';
 import NoPage from './pages/noPage';
 
 import reportWebVitals from './reportWebVitals';
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/">
           <Route index element={<Home/>} />
           <Route path="resume" element={<Resume/>} />
+          <Route path="projects" element={<Projects/>} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

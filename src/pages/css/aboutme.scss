@@ -1,0 +1,23 @@
+.aboutme {
+    display: flex;
+    box-sizing: border-box;
+
+    position: relative;
+
+    flex-direction: column;
+
+    left: 50%;
+    top: 10vh;
+
+    transform: translateX(-50%);
+
+    width: 50%;
+    min-width: 400px;
+
+    padding: 50px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
