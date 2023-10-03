@@ -1,0 +1,21 @@
+.resumeContent {
+    position: absolute;
+    display: flex;
+
+    left: 50%;
+    top: 100px;
+
+    transform: translateX(-50%);
+
+    width: 50%;
+    max-width: 850px;
+    min-width: 300px;
+    
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    color: #000;
+
+    border-radius: 15px;
+}

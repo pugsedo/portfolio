@@ -19,6 +19,7 @@ export default function NavBar() {
         <div className="navbar" style={{backgroundColor: pickColor}}>
             <div><a href="/">Home</a></div>
             <div><a href="/resume">Resume</a></div>
+            <div><a href="/projects">Projects</a></div>
         </div>
     );
 }

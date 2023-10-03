@@ -1,0 +1,79 @@
+.aboutme {
+    display: flex;
+    box-sizing: border-box;
+
+    position: relative;
+
+    flex-direction: column;
+
+    left: 50%;
+    top: 1vh;
+
+    transform: translateX(-50%);
+
+    width: 50%;
+    min-width: 400px;
+    max-width: 800px;
+
+    padding: 50px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+
+    h2 {
+        text-align: center;
+        font-size: 1.75em;
+    }
+}
+
+.skills {
+    position: relative;
+    display: flex;
+
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 100px;
+
+    border-radius: 15px;
+
+    padding-top: 50px;
+
+    div {
+        display: flex;
+
+        height: 8vh;
+        width: auto;
+
+        justify-content: center;
+        align-items: center;
+
+        padding: 10px;
+
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 20%;
+
+        img {
+            height: 90%;
+            width: auto;
+
+            -webkit-filter: drop-shadow(0 5px 5px #00000035);
+            filter: drop-shadow(0 5px 5px #00000035);
+        }
+
+        .extrasmall {
+            height: 75%;
+        }
+
+        background-color: #3f3f3f00;
+    }
+
+    background-color: #3f3f3f00;
+}

@@ -1,9 +1,9 @@
 import NavBar from "./components/navbar";
 
 import LandingPage from "./components/landing";
-import ProjectsPage from "./components/projects";
+import ProjectsPage from "./components/aboutMe";
 
-function App() {
+function Home() {
   return (
     <div className="app">
       <NavBar/>
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
