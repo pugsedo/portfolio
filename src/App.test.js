@@ -1,8 +1,18 @@
 import { render, screen } from '@testing-library/react';
 import App from './pages/home.jsx';
 
-test('renders learn react link', () => {
+test('renders navbar links', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(
+    screen.getByRole('link', { name: 'Home' })
+  ).toHaveAttribute('href', '/');
+
+  expect(
+    screen.getByRole('link', { name: 'Resume' })
+  ).toHaveAttribute('href', '/resume');
+
+  expect(
+    screen.getByRole('link', { name: 'Projects' })
+  ).toHaveAttribute('href', '/projects');
 });
