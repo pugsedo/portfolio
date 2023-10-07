@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App from './pages/home.jsx';
+import App from './index';
 
 test('renders navbar links', () => {
   render(<App />);
@@ -9,8 +9,8 @@ test('renders navbar links', () => {
   ).toHaveAttribute('href', '/');
 
   expect(
-    screen.getByRole('link', { name: 'Resume' })
-  ).toHaveAttribute('href', '/resume');
+    screen.getByRole('link', { name: 'Blog' })
+  ).toHaveAttribute('href', '/blog');
 
   expect(
     screen.getByRole('link', { name: 'Projects' })
