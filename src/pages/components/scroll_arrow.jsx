@@ -4,7 +4,7 @@ export default function ScrollBtn() {
     function scrollDown(event){
         event.preventDefault();
     
-        window.scrollTo({top: 500, behavior: 'smooth'});
+        window.scrollTo({top: 750, behavior: 'smooth'});
     }
 
     return (

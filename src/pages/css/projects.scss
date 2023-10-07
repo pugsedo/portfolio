@@ -1,0 +1,47 @@
+.projects {
+    position: absolute;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+
+    top: 60px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 50%;
+    min-width: 300px;
+
+    height: auto;
+
+    .projectSection {
+        position: relative;
+        display: block;
+
+        padding: 20px;
+        margin: 10px;
+
+        flex: 0 0 20%;
+
+        flex-grow: 2;
+        width: 50%;
+
+        min-width: 300px;
+        max-width: 500px;
+
+        border: 1px solid #c2c2c2; 
+        border-radius: 20px;
+
+        text-decoration: none;
+        color: #fff;
+
+        transition: 0.2s;
+
+        &:hover {
+            background-color: #00000048;
+        }
+    }
+}

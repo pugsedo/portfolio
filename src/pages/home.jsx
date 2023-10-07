@@ -1,15 +1,14 @@
-import NavBar from "./components/navbar";
+import Base from "./base";
 
 import LandingPage from "./components/landing";
 import ProjectsPage from "./components/aboutMe";
 
 function Home() {
   return (
-    <div className="app">
-      <NavBar/>
+    <Base>
       <LandingPage/>
       <ProjectsPage/>
-    </div>
+    </Base>
   );
 }
 

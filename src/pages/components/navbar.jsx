@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 import '../css/navbar.scss';
 
@@ -17,9 +18,9 @@ export default function NavBar() {
 
     return (
         <div className="navbar" style={{backgroundColor: pickColor}}>
-            <div><a href="/">Home</a></div>
-            <div><a href="/resume">Resume</a></div>
-            <div><a href="/projects">Projects</a></div>
+            <div><Link to="/">Home</Link></div>
+            <div><Link to="/projects">Projects</Link></div>
+            <div><Link to="/blog">Blog</Link></div>
         </div>
     );
 }

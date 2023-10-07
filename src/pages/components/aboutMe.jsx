@@ -1,13 +1,16 @@
+import FadeInSection from './fadeIn';
 import '../css/aboutme.scss';
 
 export default function AboutMePage() {
   return (
-    <header className="aboutme">
+    <FadeInSection>
+      <header className="aboutme">
         <h2>Let me introduce myself...</h2>
 
         <p>
-          &emsp;I'm a passionate full-stack developer with expertise in HTML, CSS, JavaScript, TypeScript, and popular frameworks like React.js and Node.js. My skills extend to Django and PostgreSQL for backend development.
-          I'm very experienced using Python, as I have been using it for years.
+          &emsp;I'm a passionate full-stack developer with expertise in <b>HTML, CSS, JavaScript, TypeScript,</b> and popular frameworks like <b>React.js</b> and <b>Node.js</b>.
+          My skills extend to <b>Django</b> and <b>PostgreSQL</b> for backend development.
+          I'm very experienced using <b>Python</b>, as I have been using it for years.
         </p>
 
         <div className="skills">
@@ -18,6 +21,7 @@ export default function AboutMePage() {
           <div><img src='./images/logos/nodejs_logo.png' alt="Node.JS Logo"></img></div>
           <div><img src='./images/logos/react_logo.png' alt="React.JS Logo"></img></div>
         </div>
-    </header>
+      </header>
+    </FadeInSection>
   );
 }
