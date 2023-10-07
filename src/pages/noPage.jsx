@@ -1,11 +1,10 @@
-import NavBar from "./components/navbar";
+import Base from "./base";
 
 function NoPage() {
   return (
-    <div className="resume">
-      <NavBar/>
+    <Base>
       <h1>404: Page Not Found</h1>
-    </div>
+    </Base>
   );
 }
 

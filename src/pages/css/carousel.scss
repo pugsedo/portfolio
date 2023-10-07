@@ -1,0 +1,47 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+  
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+}
+  
+.prev-button {
+    left: 20px;
+}
+  
+.next-button {
+    right: 20px;
+}
+  
+.carousel-content {
+    display: none;
+    overflow: hidden;
+}
+  
+.carousel-slide {
+    position: relative;
+    display: none;
+
+    width: 100px;
+
+    transition: 0.2s;
+    
+}
+  
+.carousel-slide.active {
+    position: absolute;
+    display: block;
+
+    transform: translateX(0);
+}  

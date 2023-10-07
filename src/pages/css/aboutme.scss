@@ -7,12 +7,11 @@
     flex-direction: column;
 
     left: 50%;
-    top: 1vh;
 
     transform: translateX(-50%);
 
     width: 50%;
-    min-width: 400px;
+    min-width: 420px;
     max-width: 800px;
 
     padding: 50px;
@@ -25,6 +24,10 @@
     h2 {
         text-align: center;
         font-size: 1.75em;
+    }
+
+    b {
+        color: #8C63FF;
     }
 }
 
