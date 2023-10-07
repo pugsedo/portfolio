@@ -6,6 +6,7 @@ export default function FadeInSection(props) {
   const domRef = React.useRef();
 
   React.useEffect(() => {
+    if (!window.IntersectionObserver) return
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
